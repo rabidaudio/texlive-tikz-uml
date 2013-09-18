@@ -1,0 +1,9 @@
+This is just the files for building the TikZ-UML LaTeX package for Arch linux.
+
+I certainly didn't write this, but I figured if I were installing it anyway, I might
+as well submit the build to AUR.
+
+You can find the source and the author on the main site:
+http://www.ensta-paristech.fr/~kielbasi/tikzuml/
+
+I wil try and keep the package updated, but there is no RSS feed, so I may forget.
