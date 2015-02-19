@@ -2,7 +2,7 @@
 # Maintainer: rabidaudio <charles@rabidaudio.com>
 # Last edited: 18th September 2013
 
-pkgname=texlive-tikzuml
+pkgname=texlive-tikz-uml
 pkgver=1.0b
 pkgrel=1
 reldate=2013-02-01
@@ -11,7 +11,7 @@ depends=('texlive-core')
 pkgdesc="A LaTeX package for drawing UML diagrams using pgf/tikz"
 url="http://www.ensta-paristech.fr/~kielbasi/tikzuml/index.php?lang=en"
 arch=('any')
-install=texlive-tikzuml.install
+install=texlive-tikz-uml.install
 source=(http://www.ensta-paristech.fr/~kielbasi/tikzuml/src/tikzuml-v1.0b-2013-02-01.tbz)
 md5sums=('79792be9bd27f895b5415bfc051a44a8')
 
