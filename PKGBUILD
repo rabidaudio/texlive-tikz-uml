@@ -15,8 +15,8 @@ install=texlive-tikzuml.install
 source=(http://www.ensta-paristech.fr/~kielbasi/tikzuml/src/tikzuml-v1.0b-2013-02-01.tbz)
 md5sums=('79792be9bd27f895b5415bfc051a44a8')
 
-build()
+package()
 {
-  mkdir -p $pkgdir/usr/share/texmf-dist/tex/latex/tikz-uml
-  cp $srcdir/tikzuml-v${pkgver}/tikz-uml.sty $pkgdir/usr/share/texmf-dist/tex/latex/tikz-uml/tikz-uml.sty
+  mkdir -p "$pkgdir/usr/share/texmf-dist/tex/latex/tikz-uml"
+  cp "$srcdir/tikzuml-v${pkgver}/tikz-uml.sty" "$pkgdir/usr/share/texmf-dist/tex/latex/tikz-uml/tikz-uml.sty"
 }
